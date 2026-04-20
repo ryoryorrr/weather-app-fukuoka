@@ -6,7 +6,7 @@ async function getWeather(){
     const res=await fetch(url)
     console.log(res);
     const data = await res.json();
-    const temp = data.current_weather.temperature;
+    const temp = data.current.temperature_2m;
     const rain = data.current.precipitation;
 
     const temDisp = document.getElementById("temperature")
