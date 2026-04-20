@@ -1,4 +1,6 @@
-
+document.addEventListener("DOMContentLoaded", () => {
+    getWeather();
+});
 
 
 async function getWeather(){
@@ -34,5 +36,4 @@ async function getWeather(){
     
 }
 
-getWeather();
 
